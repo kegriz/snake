@@ -1,0 +1,96 @@
+.content {
+    width: 216px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.startbutton {
+    cursor: pointer;
+    width: 212px;
+    height: 50px;
+    background-color: red;
+    margin: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    width: 20px;
+    height: 20px;
+    background-color: #dddddd;
+    margin: 2px;
+}
+
+.head {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin: 2px;
+}
+
+.score {
+    width: 20px;
+    height: 20px;
+    background-color: #99cc00;
+    margin: 2px;
+}
+
+.tail {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    margin: 2px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button img {
+    height: 40px;
+}
+
+.button:first-child {
+    transform: rotate(270deg);
+}
+
+.button:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.button:nth-child(4) {
+    transform: rotate(90deg);
+}
+
+.speed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.speed div{
+    cursor: pointer;
+    height:50px;
+    width:104px;
+    margin:2px;
+    color:white;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

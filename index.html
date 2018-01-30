@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="game.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="startbutton" onClick="start()">
+              <p>START NEW GAME</p>
+            </div>
+            <div id="score"></div>
+            <div id="board"></div>
+            <div class="arrows">
+                <div class="button" onClick="direction('left')">
+                    <img src="img/arrow.png">
+                </div>
+                <div class="button" onClick="direction('up')">
+                    <img src="img/arrow.png">
+                </div>
+                <div class="button" onClick="direction('down')">
+                    <img src="img/arrow.png">
+                </div>
+                <div class="button" onClick="direction('right')">
+                    <img src="img/arrow.png">
+                </div>
+            </div>
+            <div class="speed">
+                <div onClick="setTime(1000);">slow</div>
+                <div onClick="setTime(500);">fast</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
